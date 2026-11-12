@@ -55,13 +55,14 @@ header h1 {
   color: #222222;
   font-weight: bold;
   cursor: pointer;
+  transition: opacity 0.2s;
 }
 
 #theme-toggle:hover {
   opacity: 0.9;
 }
 
-/* Flexbox Navigation */
+/* Flexbox Navigation Menu */
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -126,7 +127,7 @@ main {
   border: 3px solid var(--accent-color);
 }
 
-/* Contact Form */
+/* Contact Form Section */
 #contact {
   background-color: var(--card-bg);
   padding: 1.5rem;
